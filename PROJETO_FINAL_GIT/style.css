@@ -1,0 +1,443 @@
+body{
+    margin: 0;
+}
+
+.navConteiner{
+    display: flex;
+    background-color: rgb(38, 104, 247) ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.scrolled{
+    background-color: #7206ca;
+} 
+.scrolledLinks{
+    color: #fff;
+}
+
+.linksConteiner{
+    display: flex;
+    height: 100px;
+}
+
+.linksConteiner a{
+    color: #080707;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 35px 25px;
+    height: 30px;
+}   
+
+.linksConteiner a:hover{
+    background-color: rgb(3, 9, 94);
+    transition: 0.5s;
+    color: #e0e0e0;
+}
+
+.introConteiner{
+    background: url(/Img_Fundos/Img_Cima_02.avif);
+    background-size: cover;
+    height: 60vh;
+    color: #fff;
+    margin: 0;
+    display: flex   ;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 300px;
+}
+
+.introConteiner h1{
+    margin: 0;
+    width: 1000px;
+    color: rgb(252, 250, 250);
+    text-align: start;
+    font-size: 60px;
+}
+
+.introConteiner p{
+    font-size: 18px;
+    width: 1000px;
+}
+
+.mainConteiner{
+    background: url(/Img_Fundos/Img_G_Principal.avif);
+    background-size: cover;
+    height: 730vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.textConteiner{
+    background-color: #2e0252;
+    height: 730vh;
+    width: 55vw;
+    margin: auto;
+    border-left: 0.5px solid #ffffff;
+    border-right: 0.5px solid #ffffff;
+    box-shadow: 1px 1px 20px purple ;
+}
+
+/*Lista de jogos*//*Celeste*/
+
+.descCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding-right: 690px;
+}
+
+.descCard2Conteiner img{
+   padding-left: 80px;
+}
+
+.cardsConteiner h2{
+    margin: 0;
+    font-size: 50px;
+    height: 150px;
+    color: #fff;
+}
+
+.cardsConteiner P{
+    font-size: 20PX;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0 25px;
+    color: #fff;
+}
+
+/*Subnautica*/
+
+.descCardConteiner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding-right: 370px;
+}
+
+.descCard2Conteiner2 img{
+   padding-left: 80px;
+}
+
+.cardsConteiner2 h3{
+    margin: 0;
+    font-size: 50px;
+    height: 150px;
+    color: #fff;
+}
+
+.cardsConteiner2 P{
+    font-size: 20PX;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0 25px;
+    color: #fff;
+}
+
+/*Project Zomboid*/
+
+.descCardConteiner3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding-right: 270px;
+}
+
+.descCard2Conteiner3 img{
+   padding-left: 80px;
+}
+
+.cardsConteiner3 h4{
+    margin: 0;
+    font-size: 50px;
+    height: 150px;
+    color: #fff;
+}
+
+.cardsConteiner3 P{
+    font-size: 20PX;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0 25px;
+    color: #fff;
+}
+
+/*Hollow Knight*/
+
+.descCardConteiner4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding-right: 420px;
+}
+
+.descCard2Conteiner4 img{
+   padding-left: 80px;
+}
+
+.cardsConteiner4 h5{
+    margin: 0;
+    font-size: 50px;
+    height: 150px;
+    color: #fff;
+}
+
+.cardsConteiner4 P{
+    font-size: 20PX;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0 25px;
+    color: #fff;
+}
+
+/*Stadey Valley*/
+
+.descCardConteiner5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    padding-right: 310px;
+}
+
+.descCard2Conteiner5 img{
+   padding-left: 80px;
+}
+
+.cardsConteiner5 h6{
+    margin: 0;
+    font-size: 50px;
+    height: 150px;
+    color: #fff;
+}
+
+.cardsConteiner5 P{
+    font-size: 20PX;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0 25px;
+    color: #fff;
+}
+
+@media(max-width:2082px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 61vw;
+        margin: auto;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+}
+
+@media(max-width:1920px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 61vw;
+        margin: auto;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+}
+
+@media(max-width:1850px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 68vw;
+        margin: auto;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+}
+
+@media(max-width:1650px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 70vw;
+        margin: auto;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+}
+
+@media(max-width:1550px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 75vw;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+}
+
+@media(max-width:1450px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 80vw;
+        margin: auto;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+    .descCardContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 45;
+    }
+    .descCardConteiner2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 45;
+    }
+    .descCardConteiner3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 45;
+    }
+    .descCardConteiner4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 45;
+    }
+    .descCardConteiner5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 45;
+    }
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+}
+
+@media(max-width:1360px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 85vw;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+}
+
+@media(max-width:1200px){
+    .mainConteiner{
+        background: url(/Img_Fundos/Img_G_Principal.avif);
+        background-size: cover;
+        height: 600vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    .textConteiner{
+        background-color: #2e0252;
+        height: 600vh;
+        width: 50vw;
+        border-left: 0.5px solid #ffffff;
+        border-right: 0.5px solid #ffffff;
+        box-shadow: 1px 1px 20px purple ;
+    }
+    .descCardContainer h2{
+        font-size: 40px;
+    }
+    .descCardContainer img{
+        width: 150px;
+    }
+    .descCard2Conteiner img{
+        width: 500px;
+        padding-left: 50px;
+    }
+}
